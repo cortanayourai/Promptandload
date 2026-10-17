@@ -15,9 +15,11 @@ The Operator of promptandload.com is the **data controller** for the limited pro
 
 ## Information we collect
 
-**Directly: nothing.** The Site has no accounts, no comment system, no contact form, and no analytics software. We do not ask for or store your name, address, phone number, or payment details — there is nothing on this Site to store them *in*.
+**Directly: nothing.** The Site has no accounts, no contact form, and no analytics software. We do not ask for or store your name, address, phone number, or payment details — there is nothing on this Site to store them *in*.
 
 **If you contact us by email:** whatever you put in the email, obviously. That correspondence is handled through our email providers and kept only as long as a normal email conversation (or legal obligation) requires.
+
+**Comments (when you leave one):** comments run through [giscus](https://giscus.app) and are stored as **GitHub Discussions** in our public repository (`github.com/cortanayourai/Promptandload`). Processed: your comment text and, if you sign in with GitHub, your GitHub display name and avatar — handled by GitHub, Inc. under [GitHub's Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement) and by giscus under its terms. We moderate this ourselves and can edit or delete any comment.
 
 **Automatically, via infrastructure:** Cloudflare (which serves the Site over HTTPS) processes IP address, user agent, requested URL, and timestamps for delivery, security, and abuse prevention. Our own server keeps no access logs beyond short-lived operational output.
 
@@ -49,7 +51,7 @@ This disclosure exists *before* any ad code ever runs, per Google AdSense progra
 
 ## Sharing and international transfers
 
-Service providers involved in running the Site: **Cloudflare** (hosting, DNS, HTTPS/TLS delivery, security) and **Google** (email correspondence if you write to us; advertising only if/ads are enabled, subject to the disclosure above). We sell nothing to anyone — there is no data brokerage on this Site because there is no data inventory to broker.
+Service providers involved in running the Site: **Cloudflare** (hosting, DNS, HTTPS/TLS delivery, security) and **Google** (email correspondence if you write to us; advertising only if/ads are enabled, subject to the disclosure above). We sell nothing to anyone — there is no data brokerage on this Site because there is no data inventory to broker. For comments, the service chain is giscus → GitHub, as described under "Comments" above.
 
 These providers may process data outside Indonesia. Where UU PDP requires it, any such transfer is made only where the destination country has an adequate level of protection, or with your consent, subject to the Law's safeguards.
 
@@ -87,7 +89,7 @@ Occasional links to other websites exist in the posts. Those sites have their ow
 
 ## Changes
 
-This policy may be updated when the Site changes — most likely the day advertising (or comments) switch on. The dates at the top move when it does.
+This policy may be updated when the Site changes — comments are now on; advertising will be the next likely trigger. The dates at the top move when it does.
 
 ## Contact
 
