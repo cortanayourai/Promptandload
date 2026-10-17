@@ -7,8 +7,9 @@
       old global-magenta terminal.css — Cloudflare holds static CSS with
       max-age=14400, so plain-URL fetches may serve the old file for hours.
       If you change the theme's default colors in main.css, mirror them here.
-   2. Scope bright magenta to the site header only (logo, nav links,
-      Menu trigger, mobile dropdown). */
+   2. Scope bright magenta to the header (.header: logo, nav links, Menu
+      trigger, mobile dropdown) and the footer (.footer: copyright line and
+      its links). Body content keeps the original scheme declared above. */
 
 :root {
   --foreground: #eceae5;
@@ -18,4 +19,14 @@
 .header {
   --foreground: #ff00ff;
   --accent: #ff00ff;
+}
+
+.footer {
+  --foreground: #ff00ff;
+  --accent: #ff00ff;
+  /* footer.css declares NO color — text inherited body's computed off-white,
+     which ignores element-level var() redeclarations. Declare color here.
+     opacity 1: match header brightness (theme default dims footer to 0.65). */
+  color: #ff00ff;
+  opacity: 1;
 }
