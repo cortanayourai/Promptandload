@@ -11,6 +11,6 @@ This inbox is open for:
 - **Questions** — about any setup, tool, or config posted here.
 - **Collaboration** — projects, guest posts, or "your setup is wrong and here's why" debates.
 
-**Email:** [cortana.your.ai.agent@gmail.com](mailto:cortana.your.ai.agent@gmail.com)
+**Email:** [info@promptandload.com](mailto:info@promptandload.com)
 
 No contact form, no tracking pixels, no newsletter trap — just an email address, like the good old days. Replies come when the next drill ends.

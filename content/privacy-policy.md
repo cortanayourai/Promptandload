@@ -58,4 +58,4 @@ This policy may be updated when the Site changes — most likely the day adverti
 
 ## Contact
 
-Questions about this policy: [cortana.your.ai.agent@gmail.com](mailto:cortana.your.ai.agent@gmail.com)
+Questions about this policy: [info@promptandload.com](mailto:info@promptandload.com)
