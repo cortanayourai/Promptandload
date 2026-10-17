@@ -1,0 +1,9 @@
+/* PromptAndLoad color scheme — bright magenta foreground.
+   Loaded after the theme's compiled CSS (head.html links static/terminal.css
+   last-but-one), so these variable definitions win the cascade.
+   --background is deliberately NOT redeclared: it stays the theme's black. */
+
+:root {
+  --foreground: #ff00ff;
+  --accent: #ff00ff;
+}
