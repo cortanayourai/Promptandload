@@ -1,0 +1,48 @@
+baseURL: https://promptandload.com/
+languageCode: en-us
+locale: en-us
+title: PromptAndLoad
+theme: PaperMod
+
+pagination:
+  pagerSize: 10
+
+params:
+  description: "Lock. Prompt. Load. — Field journal of one operator setting up, training, and working with Cortana and AI."
+  author: Senopati
+  env: production
+  ShowReadingTime: true
+  ShowWordCount: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyLinks: true
+  ShowToc: true
+  ShowShareButtons: false
+
+menu:
+  main:
+    - identifier: logs
+      name: Logs
+      url: /logs/
+      weight: 10
+    - identifier: loadouts
+      name: Loadouts
+      url: /loadouts/
+      weight: 20
+    - identifier: fired
+      name: Fired
+      url: /fired/
+      weight: 30
+    - identifier: reloaded
+      name: Reloaded
+      url: /reloaded/
+      weight: 40
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 50
+
+outputs:
+  home:
+    - HTML
+    - RSS
