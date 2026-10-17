@@ -1,0 +1,15 @@
+/* PromptAndLoad layout overrides.
+   Loaded last via head.html's static/style.css hook. */
+
+/* Mobile menu dropdown (portrait, theme breakpoint ≤684px): size to the
+   longest label so every item sits on one line. The theme's absolute dropdown
+   shrink-to-fit width is clamped to the narrow "Menu" trigger box, which
+   forced mid-word wraps ("Loado/uts", "Priva/cy Polic/y"). Right-anchored,
+   so it grows leftward and stays on screen. */
+.menu--mobile .menu__dropdown {
+  width: max-content;
+}
+
+.menu--mobile .menu__dropdown > li a {
+  white-space: nowrap;
+}
