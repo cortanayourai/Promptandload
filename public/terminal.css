@@ -1,9 +1,11 @@
-/* PromptAndLoad color scheme — bright magenta foreground.
-   Loaded after the theme's compiled CSS (head.html links static/terminal.css
-   last-but-one), so these variable definitions win the cascade.
-   --background is deliberately NOT redeclared: it stays the theme's black. */
+/* PromptAndLoad color scheme.
+   Magenta is scoped to the site header only; the rest of the page keeps the
+   theme's original scheme (off-white foreground, amber accents) declared in
+   the theme's main.css :root — no global override anymore.
+   Custom properties cascade: everything inside .header (logo, nav links,
+   Menu trigger, mobile dropdown) computes these two vars as magenta. */
 
-:root {
+.header {
   --foreground: #ff00ff;
   --accent: #ff00ff;
 }

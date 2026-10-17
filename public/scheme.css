@@ -1,0 +1,21 @@
+/* Authoritative color scheme — loaded last via the theme's extended_head
+   hook (after terminal.css and style.css), so it always wins the cascade.
+
+   Two jobs:
+   1. Pin :root back to the theme's original scheme (off-white foreground,
+      amber accent). This also neutralizes a stale edge-cached copy of the
+      old global-magenta terminal.css — Cloudflare holds static CSS with
+      max-age=14400, so plain-URL fetches may serve the old file for hours.
+      If you change the theme's default colors in main.css, mirror them here.
+   2. Scope bright magenta to the site header only (logo, nav links,
+      Menu trigger, mobile dropdown). */
+
+:root {
+  --foreground: #eceae5;
+  --accent: #eec35e;
+}
+
+.header {
+  --foreground: #ff00ff;
+  --accent: #ff00ff;
+}
