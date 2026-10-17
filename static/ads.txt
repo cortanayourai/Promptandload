@@ -1,0 +1,5 @@
+# ads.txt — promptandload.com
+# Google AdSense publisher record will be added here after AdSense account approval.
+# The line will read:
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+# Reference: https://support.google.com/admanager/answer/7518418
