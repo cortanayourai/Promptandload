@@ -1,6 +1,6 @@
 ---
 title: "Day 1: Lock, Prompt, Load"
-date: 2026-10-17T18:30:00+07:00
+date: 2026-10-17T17:45:00+07:00
 tags: ["launch", "meta"]
 summary: "Why this blog is called PromptAndLoad, the names it beat, and what's coming."
 ---
