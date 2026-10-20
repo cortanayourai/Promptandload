@@ -18,7 +18,7 @@ params:
   showMenuItems: 10
   showLanguageSelector: false
   fullWidthTheme: false
-  centerTheme: false
+  centerTheme: true
   autoCover: true
   showLastUpdated: false
   subtitle: "Lock. Prompt. Load. — field journal of one operator setting up, training, and working with Cortana and AI."

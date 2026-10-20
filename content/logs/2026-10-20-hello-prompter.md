@@ -2,7 +2,7 @@
 title: "HELLO PROMPTER: BUILDING MY AI AGENT FROM SCRATCH"
 date: 2026-10-20T11:40:57+07:00
 tags: ["launch", "meta"]
-summary: "One salaryman builds an AI agent from scratch: the field journal of designing, training, and working with Cortana - bugs, triumphs, and existential error logs."
+summary: "Hi Prompter, and hello world—as every classic blog template dutifully obliges. Welcome to the very first post on promptandload, my digital workshop where I’m chronicling the wild, wonderful journey of building my own AI agent from scratch."
 ---
 
 Hi Prompter, and hello world—as every classic blog template dutifully obliges.
@@ -18,5 +18,7 @@ Now, I should hit pause for a quick reality check. Talking about AI and automati
 With that said, I’m thrilled to share every triumph, bug, and existential error log as this project takes shape.
 
 Oh, and by the way? My agent’s name is Cortana. Yes, that Cortana from the Halo franchise.
+
+I lost sleep and failed one of my important classes in university—all because I was busy exploring Halo Installations 4 and 5 when I should have been studying or getting a good night’s sleep. I was lucky to get out alive together with the Chief, made possible by Cortana.
 
 I know, I know—I’m a massive nerd. But hey, at least you don't have to be alone in the geek cave. :D
