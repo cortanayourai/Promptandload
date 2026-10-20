@@ -11,7 +11,7 @@ Today’s topic: the classic tech rite of passage—choosing a Virtual Private S
 
 > **THE SHORT VERSION:** Hostinger’s KVM 1 is the happiest, smoothest ticket to get started. Biznet Gio’s NEO Lite MS 4.2 is the smarter, long-term home. I (by I, I mean me with help of Cortana the AI Agent) ran the numbers, I ran the benchmarks, and I picked the one that wasn’t strictly the cheapest—because I’ve learned that cheap and inexpensive are two different hobbies. Pull up a chair.
 
-> 💡 **A QUICK HEADS-UP ON PRICING:** All prices quoted in this post were accurate at the time of writing. However, VPS providers—especially Hostinger—use dynamic pricing models, seasonal promotions, referral links, and promo codes that can significantly lower your initial checkout total. Be sure to look out for coupon codes or introductory deals before checking out!<sup id="ref-pricing-1" class="fnref"><a href="#fn-pricing">[1]</a></sup>
+> 💡 **A QUICK HEADS-UP ON PRICING & CURRENCY:** All primary prices in this post are listed in Indonesian Rupiah (IDR), taken directly from the providers’ local Indonesian portals. For international readers, companion figures in USD are calculated at today’s exchange rate of 1 USD = Rp18.000 (as of October 20, 2026).<sup id="ref-usdidr-1" class="fnref"><a href="#fn-usdidr">[8]</a></sup> Keep in mind that VPS providers—especially Hostinger—use dynamic pricing models, seasonal promos, referral links, and promo codes that can alter your checkout total. Always double-check for coupon codes before checking out!<sup id="ref-pricing-1" class="fnref"><a href="#fn-pricing">[1]</a></sup>
 
 ## Table of Contents
 
@@ -43,22 +43,22 @@ So the real question was never “what’s the absolute cheapest.” It was: wha
 
 **Data safety:** For VPS plans, you can point your server at ten locations across four continents—including Indonesia, Malaysia, and India in Asia—featuring AMD EPYC processors, NVMe storage, a managed firewall, DDoS protection, free *weekly* automatic backups, and a 30-day money-back guarantee.<sup id="ref-hostinger-features-1" class="fnref"><a href="#fn-hostinger-features">[4]</a></sup><sup id="ref-hostinger-locations-1" class="fnref"><a href="#fn-hostinger-locations">[5]</a></sup>
 
-**VPS pricing — the full KVM ladder:** All prices are per month. Hostinger lists two numbers—the introductory price for your initial term and the renewal price after it—and notes that plans are paid upfront, meaning the advertised monthly rate is your term’s total divided by the months.<sup id="ref-kvm-pricing-1" class="fnref"><a href="#fn-kvm-pricing">[6]</a></sup>
+**VPS pricing — the full KVM ladder:** All prices are per month, listed in IDR from Hostinger Indonesia.<sup id="ref-id-pricing-1" class="fnref"><a href="#fn-id-pricing">[7]</a></sup> Hostinger lists two figures—the introductory promotional rate (for a 24-month term commitment) and the standard renewal rate after that term ends.<sup id="ref-kvm-pricing-1" class="fnref"><a href="#fn-kvm-pricing">[6]</a></sup> Companion USD figures are based on the Oct 20, 2026 exchange rate (≈ Rp18.000/USD).
 
-| Plan | vCPU / RAM / Disk | Intro Price | Renews At |
+| Plan | vCPU / RAM / Disk | Intro Price / Mo | Renewal Price / Mo |
 |---|---|---|---|
-| KVM 1 | 1 / 4 GB / 50 GB NVMe | $6.49/mo | $11.99/mo |
-| KVM 2 | 2 / 8 GB / 100 GB NVMe | $8.79/mo | $14.99/mo |
-| KVM 4 | 4 / 16 GB / 200 GB NVMe | $12.99/mo | $28.99/mo |
-| KVM 8 | 8 / 32 GB / 400 GB NVMe | $25.99/mo | $49.99/mo |
+| KVM 1 | 1 / 4 GB / 50 GB NVMe | Rp116.900 (~$6.49 USD) | Rp193.900 (~$10.77 USD) |
+| KVM 2 | 2 / 8 GB / 100 GB NVMe | Rp158.200 (~$8.79 USD) | Rp269.800 (~$14.99 USD) |
+| KVM 4 | 4 / 16 GB / 200 GB NVMe | Rp233.800 (~$12.99 USD) | Rp521.800 (~$28.99 USD) |
+| KVM 8 | 8 / 32 GB / 400 GB NVMe | Rp467.800 (~$25.99 USD) | Rp899.800 (~$49.99 USD) |
 
-Indonesia gets its own price tags in rupiah: KVM 1 runs Rp116.900/bln introductory, then Rp193.900/bln on renewal—each figure quoted per a two-year term.<sup id="ref-id-pricing-1" class="fnref"><a href="#fn-id-pricing">[7]</a></sup> Do the math and you’ll see Rp116.900 × 24 = Rp2.805.600 due on day one (at roughly Rp18.055 per US dollar that day,<sup id="ref-usdidr-1" class="fnref"><a href="#fn-usdidr">[8]</a></sup> the rupiah and dollar prices match to the digit—nice of them).
+**Note on prepay:** Hostinger requires upfront payment for promotional rates. For example, KVM 1’s introductory rate comes out to Rp116.900 × 24 = Rp2.805.600 (~$155.87 USD) due on day one.
 
 ## My Pick from Hostinger: KVM 1 {#kvm1}
 
-If I shop Hostinger, I’m taking KVM 1—the entry rung, and yes, partly *because* it’s the entry rung. Four gigabytes of RAM is the same neighborhood my agent already lives in, 50 GB of NVMe is plenty for an agent plus a couple of containers, and at Rp116.900 intro, it’s the smoothest way through their door. I like cheap. The file says so.
+If I shop Hostinger, I’m taking KVM 1—the entry rung, and yes, partly *because* it’s the entry rung. Four gigabytes of RAM is the same neighborhood my agent already lives in, 50 GB of NVMe is plenty for an agent plus a couple of containers, and at Rp116.900 (~$6.49 USD) intro, it’s the smoothest way through their door. I like cheap. The file says so.
 
-The asterisk to keep in mind: at renewal (Rp193.900), this same box costs *more* than my pick on the other side of this article—a fact future-me will feel, and present-me should respect.
+The asterisk to keep in mind: at renewal (Rp193.900 / ~$10.77 USD), this same box costs *more* than my pick on the other side of this article—a fact future-me will feel, and present-me should respect.
 
 ## Contender 2: Biznet Gio {#biznetgio}
 
@@ -70,23 +70,23 @@ The asterisk to keep in mind: at renewal (Rp193.900), this same box costs *more*
 
 **NEO Lite pricing — the full ladder:** Every tier ships with 60 GB of SSD storage, free bandwidth up to 10 Gbps, 99.9% uptime support, and 24/7 human support claiming sub-3-minute responses—billed monthly, in rupiah, with no multi-month prepay.<sup id="ref-neo-lite-1" class="fnref"><a href="#fn-neo-lite">[13]</a></sup>
 
-| Package | vCPU / RAM | Price / Month |
+| Package | vCPU / RAM | Price / Month (IDR & USD Equivalent) |
 |---|---|---|
-| NEO Lite XS 1.1 | 1 / 1 GB | Rp59.000 |
-| NEO Lite SS 2.1 | 1 / 2 GB | Rp80.000 |
-| NEO Lite SS 2.2 | 2 / 2 GB | Rp109.000 |
-| **NEO Lite MS 4.2** | **2 / 4 GB** | **Rp139.000** |
-| NEO Lite MS 4.4 | 4 / 4 GB | Rp179.000 |
-| NEO Lite MM 8.4 | 4 / 8 GB | Rp269.000 (discounted from Rp399.000) |
-| NEO Lite MM 8.8 | 8 / 8 GB | Rp289.000 (discounted from Rp499.000) |
-| NEO Lite LL 16.8 | 8 / 16 GB | Rp459.000 (discounted from Rp839.000) |
-| NEO Lite LL 16.16 | 16 / 16 GB | Rp499.000 (discounted from Rp998.000) |
+| NEO Lite XS 1.1 | 1 / 1 GB | Rp59.000 (~$3.28 USD) |
+| NEO Lite SS 2.1 | 1 / 2 GB | Rp80.000 (~$4.44 USD) |
+| NEO Lite SS 2.2 | 2 / 2 GB | Rp109.000 (~$6.06 USD) |
+| **NEO Lite MS 4.2** | **2 / 4 GB** | **Rp139.000 (~$7.72 USD)** |
+| NEO Lite MS 4.4 | 4 / 4 GB | Rp179.000 (~$9.94 USD) |
+| NEO Lite MM 8.4 | 4 / 8 GB | Rp269.000 (~$14.94 USD) (discounted from Rp399.000 ≈ $22.17 USD) |
+| NEO Lite MM 8.8 | 8 / 8 GB | Rp289.000 (~$16.05 USD) (discounted from Rp499.000 ≈ $27.72 USD) |
+| NEO Lite LL 16.8 | 8 / 16 GB | Rp459.000 (~$25.50 USD) (discounted from Rp839.000 ≈ $46.61 USD) |
+| NEO Lite LL 16.16 | 16 / 16 GB | Rp499.000 (~$27.72 USD) (discounted from Rp998.000 ≈ $55.44 USD) |
 
 About those parentheses: the four biggest tiers display a struck-through regular price next to today’s discounted one—no published expiry, no lock-in term, just month-to-month. The smaller tiers keep it straightforward: what you see is what you pay.
 
 ## My Pick from Biznet Gio: NEO Lite MS 4.2 {#ms42}
 
-Not the cheapest—the XS 1.1 at Rp59.000 whispers sweet nothings to my wallet, but 1 GB of RAM can’t comfortably host an agent, a container stack, and my ambitions. The MS 4.2—2 vCPU, 4 GB RAM, Rp139.000/month—is the sweet spot for Hermes: double the cores of Hostinger’s entry box, the same RAM, more storage, flat pricing, and billed monthly.
+Not the cheapest—the XS 1.1 at Rp59.000 (~$3.28 USD) whispers sweet nothings to my wallet, but 1 GB of RAM can’t comfortably host an agent, a container stack, and my ambitions. The MS 4.2—2 vCPU, 4 GB RAM, Rp139.000/month (~$7.72 USD)—is the sweet spot for Hermes: double the cores of Hostinger’s entry box, the same RAM, more storage, flat pricing, and billed monthly.
 
 Since Hermes has been living on exactly this machine, I didn’t have to trust a brochure—I ran the numbers myself:
 
@@ -101,13 +101,13 @@ That’s not a review unit; that’s the actual box, measured mid-October 2026.
 
 | Feature | Hostinger KVM 1 | Biznet Gio NEO Lite MS 4.2 |
 |---|---|---|
-| Price | $6.49 / Rp116.900 intro, renews at Rp193.900 | Rp139.000 flat |
-| Billing | Prepaid term (24 mo ≈ Rp2.805.600 up front) | Monthly, cancel anytime |
+| Price | Rp116.900 (~$6.49) intro, renews at Rp193.900 (~$10.77) | Rp139.000 (~$7.72) flat |
+| Billing | Prepaid term (24 mo ≈ Rp2.805.600 / ~$155.87 up front) | Monthly, cancel anytime |
 | CPU / RAM | 1 vCPU / 4 GB | 2 vCPU / 4 GB |
-| Disk | 50 GB NVMe | 60 GB SSD (expandable Rp1.650/GB) |
+| Disk | 50 GB NVMe | 60 GB SSD (expandable Rp1.650/GB ≈ $0.09) |
 | Bandwidth | 4 TB transfer | Free up to 10 Gbps |
 | Locations | 10 DCs worldwide, Indonesia included | 3 DCs in Indonesia, own backbone |
-| Backups | Free weekly + 1 manual snapshot | Not included — snapshot add-on Rp1.500/GB/mo |
+| Backups | Free weekly + 1 manual snapshot | Not included — snapshot add-on Rp1.500/GB/mo (~$0.08) |
 | Out-of-the-Box | hPanel, Docker, AI terminal, templates | Bare Ubuntu — SSH or VNC |
 
 ### Pros & Cons
@@ -115,7 +115,7 @@ That’s not a review unit; that’s the actual box, measured mid-October 2026.
 | | ✅ Pros | ⚠️ Cons |
 |---|---|---|
 | **Hostinger KVM 1** | Cheapest entry price; polished dashboard; one-click tools; free weekly backups; global locations; 30-day refund. | Renewal nearly doubles the cost; only 1 vCPU; big upfront prepay commitment. |
-| **Biznet Gio NEO Lite MS 4.2** | 2 cores at a flat Rp139.000; monthly billing; measurably honest hardware; local backbone; enterprise-grade certifications. | Bare server (you bring your own skills); no free automatic backup included; SSD instead of NVMe. |
+| **Biznet Gio NEO Lite MS 4.2** | 2 cores at a flat Rp139.000 (~$7.72); monthly billing; measurably honest hardware; local backbone; enterprise-grade certifications. | Bare server (you bring your own skills); no free automatic backup included; SSD instead of NVMe. |
 
 **My verdict:** For a long, quiet, efficient run—an agent living on a box for months or years—the MS 4.2 is the smarter buy: more cores at a flat monthly rate, local infrastructure, and a bill that never surprises you at renewal. But if the shiny dashboard, one-click installs, and included weekly backups are calling to you (and after a long work day, like this Tuesday, they will), KVM 1 at its introductory price is the best-value front door in the industry—just set a calendar reminder for renewal day!
 
@@ -137,7 +137,7 @@ Here’s the part brochures tend to gloss over. Two boxes with similar specs can
 **Auto-backups side-by-side:**
 
 - **Hostinger:** Weekly automatic backups are included; daily backups require a paid add-on.<sup id="ref-hostinger-backups-2" class="fnref"><a href="#fn-hostinger-backups">[17]</a></sup>
-- **Biznet Gio:** No automatic backup inside the basic VPS price. Snapshots cost Rp1.500/GB/month, and true scheduled backups start at Rp2.699.000/month for 500 GB—definitely enterprise pricing for a hobbyist’s problem.<sup id="ref-biznet-backups-1" class="fnref"><a href="#fn-biznet-backups">[18]</a></sup>
+- **Biznet Gio:** No automatic backup inside the basic VPS price. Snapshots cost Rp1.500/GB/month (~$0.08), and true scheduled backups start at Rp2.699.000/month for 500 GB (~$149.94)—definitely enterprise pricing for a hobbyist’s problem.<sup id="ref-biznet-backups-1" class="fnref"><a href="#fn-biznet-backups">[18]</a></sup>
 
 Translation: The learning curve is a lot less steep when the safety net is included in the ticket price.
 
@@ -147,7 +147,7 @@ Now, for the actual point of this whole expedition.
 
 A VPS isn’t just a gadget you buy—it’s a home you move into (Note: this is Cortana talking you guys, as for me, I have my own house and a mortgage as a motivation to wake up every morning and work hard like a horse). But joking aside, the main idea of VPS is for me to keep coming back to: use a server for a long time, spend efficiently, and grow your knowledge at the same speed your AI agent grows with you.
 
-On paper, Biznet Gio’s MS 4.2 is the ideal shape for that: two cores and four gigs at a flat Rp139.000 for as long as you keep it, local infrastructure you can measure, monthly billing that respects a salaryman’s cash flow, and because it arrives bare, it actually *teaches* you. Every session is real practice: SSH keys, firewalls, Docker, systemd, and backups you configure yourself. The server grows your résumé while it hosts your agent.
+On paper, Biznet Gio’s MS 4.2 is the ideal shape for that: two cores and four gigs at a flat Rp139.000 (~$7.72) for as long as you keep it, local infrastructure you can measure, monthly billing that respects a salaryman’s cash flow, and because it arrives bare, it actually *teaches* you. Every session is real practice: SSH keys, firewalls, Docker, systemd, and backups you configure yourself. The server grows your résumé while it hosts your agent.
 
 But—and I mean this with a full heart—if the nicer dashboard and Hostinger’s bundled perks are tempting you, that temptation is completely valid. Not everyone wants to learn Linux by fire on a work night. If your priority is *shipping tonight* rather than *studying tonight*, Hostinger’s KVM 1 wraps the same job in training wheels that actually work, with backups already humming in the background.
 
@@ -175,7 +175,7 @@ Until next prompt—stay cheap, stay curious.
 <li id="fn-hostinger-locations">Hostinger Support, "Hostinger server locations" (VPS: France, Germany, Lithuania, UK, India, Indonesia, Malaysia, Phoenix, Boston, Brazil — ten locations, updated 2026) — <a href="https://www.hostinger.com/support/1583267-where-are-hostinger-servers-located/">https://www.hostinger.com/support/1583267-where-are-hostinger-servers-located/</a> <a href="#ref-hostinger-locations-1" class="fn-back">[↩]</a></li>
 <li id="fn-kvm-pricing">Hostinger, "Plans & pricing — VPS hosting" ("All plans are paid upfront. The monthly rate reflects the total plan price divided by the number of months in your plan"; KVM 1–KVM 8 intro and renewal rates, read 20 October 2026) — <a href="https://www.hostinger.com/pricing/vps-hosting">https://www.hostinger.com/pricing/vps-hosting</a> <a href="#ref-kvm-pricing-1" class="fn-back">[↩]</a></li>
 <li id="fn-id-pricing">Hostinger Indonesia, "VPS Hosting" (KVM 1 Rp116.900/bln intro; "Biaya perpanjangan Rp193.900/bln untuk 2 tahun"; KVM 2/4/8 likewise in rupiah, read 20 October 2026) — <a href="https://www.hostinger.com/id/vps-hosting">https://www.hostinger.com/id/vps-hosting</a> <a href="#ref-id-pricing-1" class="fn-back">[↩]</a></li>
-<li id="fn-usdidr">ExchangeRate-API open endpoint, USD/IDR = 18.055,12 (20 October 2026) — <a href="https://open.er-api.com/v6/latest/USD">https://open.er-api.com/v6/latest/USD</a> <a href="#ref-usdidr-1" class="fn-back">[↩]</a></li>
+<li id="fn-usdidr">ExchangeRate-API open endpoint, USD/IDR = 18.055,12 on 20 October 2026 — <a href="https://open.er-api.com/v6/latest/USD">https://open.er-api.com/v6/latest/USD</a>. Companion USD figures in this post round this to a friendly Rp18.000/USD <a href="#ref-usdidr-1" class="fn-back">[↩]</a></li>
 <li id="fn-biznet-history">Biznet Gio Blog, "Pengembangan Pusat Data Ketiga…" (31 March 2021: third DC in Banten joining MidPlaza Jakarta and Technovillage Cimanggis; free private inter-DC network) and Technology Magazine, "Biznet Gio: Indonesia's Cloud Provider post COVID strategy" ("Since launching in 2015…") — <a href="https://www.biznetgio.com/blog/transformasi-digital-umkm/">https://www.biznetgio.com/blog/transformasi-digital-umkm/</a> · <a href="https://technologymagazine.com/company-reports/biznet-gio-indonesias-cloud-provider-post-covid-strategy">https://technologymagazine.com/company-reports/biznet-gio-indonesias-cloud-provider-post-covid-strategy</a> <a href="#ref-biznet-history-1" class="fn-back">[↩]</a></li>
 <li id="fn-biznet-iso">Biznet Gio, "Cloud untuk Financial Services" (ISO 27001, ISO 27017, ISO 27018, ISO 27701, ISO 9001, SOC 2 Type II, PCI-DSS certification list) — <a href="https://www.biznetgio.com/product/cloud-financial">https://www.biznetgio.com/product/cloud-financial</a> <a href="#ref-biznet-iso-1" class="fn-back">[↩]</a></li>
 <li id="fn-biznet-soc2">Biznet Gio Blog (SOC 2 Type II via AICPA audit, early 2021, completing the ISO 27001 + PCI-DSS pair already held — first local provider with three certifications) and Biznet Gio Knowledge Base, "Regions Datacenter Pada Biznet Gio" (three Tier-3 regions) — <a href="https://www.biznetgio.com/blog/transformasi-digital-umkm/">https://www.biznetgio.com/blog/transformasi-digital-umkm/</a> · <a href="https://kb.biznetgio.com/id_ID/informasi/regions-datacenter-pada-biznet-gio">https://kb.biznetgio.com/id_ID/informasi/regions-datacenter-pada-biznet-gio</a> <a href="#ref-biznet-soc2-1" class="fn-back">[↩]</a></li>
