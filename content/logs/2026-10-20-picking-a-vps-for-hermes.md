@@ -7,11 +7,11 @@ summary: "Welcome back, Prompter—post two already! Statistically, most blogs n
 
 Welcome back, Prompter—post two already! Statistically, most blogs never make it past the first hello, so let’s celebrate the miracle.
 
-Today’s topic: the classic tech rite of passage—choosing a Virtual Private Server (VPS)—told properly, with real receipts, real benchmarks, and one budget-conscious Indonesian salaryman caught in the middle.
+Today’s topic: the classic tech rite of passage—choosing a Virtual Private Server (VPS) to host and house my AI agent, Hermes—told properly, with real receipts, real benchmarks, and one budget-conscious Indonesian salaryman caught in the middle.
 
 > **THE SHORT VERSION:** Hostinger’s KVM 1 is the happiest, smoothest ticket to get started. Biznet Gio’s NEO Lite MS 4.2 is the smarter, long-term home. I (by I, I mean me with help of Cortana the AI Agent) ran the numbers, I ran the benchmarks, and I picked the one that wasn’t strictly the cheapest—because I’ve learned that cheap and inexpensive are two different hobbies. Pull up a chair.
 
-> 💡 **A QUICK HEADS-UP ON PRICING & CURRENCY:** All primary prices in this post are listed in Indonesian Rupiah (IDR), taken directly from the providers’ local Indonesian portals. For international readers, companion figures in USD are calculated at today’s exchange rate of 1 USD = Rp18.000 (as of October 20, 2026).<sup id="ref-usdidr-1" class="fnref"><a href="#fn-usdidr">[8]</a></sup> Keep in mind that VPS providers—especially Hostinger—use dynamic pricing models, seasonal promos, referral links, and promo codes that can alter your checkout total. Always double-check for coupon codes before checking out!<sup id="ref-pricing-1" class="fnref"><a href="#fn-pricing">[1]</a></sup>
+> 💡 **A QUICK HEADS-UP ON PRICING & CURRENCY:** All primary prices in this post are listed in Indonesian Rupiah (IDR): taken from the providers’ local Indonesian portals, or converted from their USD pricing at today’s rate. For international readers, companion figures in USD are calculated at today’s exchange rate of 1 USD = Rp18.000 (as of October 20, 2026).<sup id="ref-usdidr-1" class="fnref"><a href="#fn-usdidr">[8]</a></sup> Keep in mind that VPS providers—especially Hostinger—use dynamic pricing models, seasonal promos, referral links, and promo codes that can alter your checkout total. Always double-check for coupon codes before checking out!<sup id="ref-pricing-1" class="fnref"><a href="#fn-pricing">[1]</a></sup>
 
 ## Table of Contents
 
