@@ -15,7 +15,15 @@ Today’s topic: the classic tech rite of passage—choosing a Virtual Private S
 
 ## Table of Contents
 
-[The problem I love: cheap, but not slow](#cheap) - [Contender 1: Hostinger](#hostinger) - [My pick from Hostinger: KVM 1](#kvm1) - [Contender 2: Biznet Gio](#biznetgio) - [My pick from Biznet Gio: NEO Lite MS 4.2](#ms42) - [Head to head: KVM 1 vs. NEO Lite MS 4.2](#headtohead) - [The facility gap: what you get beyond the server](#facilitygap) - [The long game](#longgame) - [Over to you, Prompter](#overtoyou)
+- [The problem I love: cheap, but not slow](#cheap)
+- [Contender 1: Hostinger](#hostinger)
+- [My pick from Hostinger: KVM 1](#kvm1)
+- [Contender 2: Biznet Gio](#biznetgio)
+- [My pick from Biznet Gio: NEO Lite MS 4.2](#ms42)
+- [Head to head: KVM 1 vs. NEO Lite MS 4.2](#headtohead)
+- [The facility gap: what you get beyond the server](#facilitygap)
+- [The long game](#longgame)
+- [Over to you, Prompter](#overtoyou)
 
 ## The Problem I Love: Cheap, But Not Slow {#cheap}
 
