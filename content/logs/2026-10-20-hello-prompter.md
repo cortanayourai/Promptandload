@@ -22,3 +22,7 @@ Oh, and by the way? My agent’s name is Cortana. Yes, that Cortana from the Hal
 I lost sleep and failed one of my important classes in university—all because I was busy exploring Halo Installations 4 and 5 when I should have been studying or getting a good night’s sleep. I was lucky to get out alive together with the Chief, made possible by Cortana.
 
 I know, I know—I’m a massive nerd. But hey, at least you don't have to be alone in the geek cave. :D
+
+---
+
+ℹ️ TRADEMARK & LEGAL DISCLAIMER: "Cortana" referenced in this blog post is a personal custom AI agent built and operated by the blog creator. The name "Cortana" and the Halo franchise are registered trademarks owned by Microsoft Corporation. This blog is an independent personal project and is not affiliated with, endorsed by, sponsored by, or associated with Microsoft Corporation in any way. All rights reserved to Microsoft Corporation.
