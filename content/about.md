@@ -6,6 +6,6 @@ One operator, one AI, zero mutual understanding — yet. This is where I documen
 
 **PromptAndLoad** is named after *lock and load*, with one word swapped — because that's what this is: ready the prompt, send it, see what the machine does with it.
 
-New here? Start with the [Logs](/logs/), steal from the [Loadouts](/loadouts/), and learn from the [Fired](/fired/) so you don't have to break the same things I did.
+New here? Start with the [Logs](/logs/) and steal whatever’s useful so you don’t have to break the same things I did.
 
 *Lock. Prompt. Load.*

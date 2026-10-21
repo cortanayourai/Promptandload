@@ -44,18 +44,6 @@ menu:
       name: Logs
       url: /logs/
       weight: 10
-    - identifier: loadouts
-      name: Loadouts
-      url: /loadouts/
-      weight: 20
-    - identifier: fired
-      name: Fired
-      url: /fired/
-      weight: 30
-    - identifier: reloaded
-      name: Reloaded
-      url: /reloaded/
-      weight: 40
     - identifier: about
       name: About
       url: /about/
