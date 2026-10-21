@@ -1,0 +1,38 @@
+# promptandload.com — static server for Hugo build output
+# PRD-1 (approved 2026-10-19): OQ-2 = Caddy, loopback-only ingress via tunnel.
+# Mounted read-only into the container at /etc/caddy/Caddyfile.
+# Container-internal port 8080 (non-root); host maps 127.0.0.1:1313 → tunnel untouched.
+
+:8080 {
+	root * /srv
+	encode gzip
+
+	# Access log (operator-approved 2026-10-21): JSON to stdout -> docker logs.
+	# Tunnel is the sole ingress, so real client = CF-Connecting-Ip / X-Forwarded-For.
+	log {
+		output stdout
+		format json
+	}
+
+	# Baseline: no-cache everywhere except content-addressed assets, plus security headers.
+	header {
+		X-Content-Type-Options "nosniff"
+		X-Frame-Options "SAMEORIGIN"
+		Referrer-Policy "strict-origin-when-cross-origin"
+	}
+
+	# Hugo fingerprinted assets (.min.<sha256>.css): content-addressed → cache forever.
+	# Mutually exclusive matchers: exactly one Cache-Control applies, header-op order irrelevant.
+	@fp path_regexp fp \.[0-9a-f]{64}\.
+	@notfp not path_regexp fp \.[0-9a-f]{64}\.
+	header @fp Cache-Control "public, max-age=31536000, immutable"
+	header @notfp Cache-Control "no-cache"
+
+	# Custom 404 (S2): serve Hugo's 404.html on any miss. Directory listing never enabled.
+	handle_errors {
+		rewrite * /404.html
+		file_server
+	}
+
+	file_server
+}
