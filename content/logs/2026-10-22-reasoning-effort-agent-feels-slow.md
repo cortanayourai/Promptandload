@@ -1,6 +1,6 @@
 ---
 title: "REASONING EFFORT: WHY YOUR AI AGENT FEELS SLOW AND COSTS MORE."
-date: 2026-10-22T11:18:00+07:00
+date: 2026-10-22T10:45:00+07:00
 tags: ["hermes", "reasoning", "performance"]
 summary: "META: promptandload · Post 9 · tags: hermes, reasoning, performance · 22 October 2026"
 ---

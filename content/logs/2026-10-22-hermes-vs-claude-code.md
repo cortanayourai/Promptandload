@@ -1,6 +1,6 @@
 ---
 title: "HERMES VS CLAUDE CODE: OPEN-SOURCE AGENT OR PAID GIANT?"
-date: 2026-10-22T10:45:00+07:00
+date: 2026-10-22T11:18:00+07:00
 tags: ["hermes", "claude-code", "ai-agents"]
 summary: "META: promptandload · Post 12 · tags: hermes, claude-code, ai-agents · 22 October 2026"
 ---

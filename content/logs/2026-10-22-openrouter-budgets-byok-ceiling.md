@@ -1,6 +1,6 @@
 ---
 title: "OPENROUTER BUDGETS AND BYOK: PUTTING A CEILING ON AI SPENDING"
-date: 2026-10-22T11:26:00+07:00
+date: 2026-10-22T10:30:00+07:00
 tags: ["hermes", "openrouter", "byok", "costs"]
 summary: "META: promptandload · Post 8 · tags: hermes, openrouter, byok, costs · 22 October 2026"
 ---
