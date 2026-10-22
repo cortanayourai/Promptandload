@@ -39,16 +39,18 @@ We follow the processing principles UU PDP requires of every controller: process
 
 ## Cookies and advertising
 
-**Today: the Site runs a consent banner and traffic measurement, and no advertising.**
+**Today: the Site runs a consent banner, traffic measurement, and the Google AdSense library — with no ad units placed yet, so pages carry no ads until that changes.**
 
-Two things touch your browser as it stands:
+Three things touch your browser as it stands:
 
 - **The CookieHub consent cookie (`cookiehub`)** — a strictly necessary record of the consent choices you make (or that the banner records on your behalf), kept for one year.
 - **Google Analytics, via the Google tag `G-FQ9WQJKGWR`** — counts pages viewed, referrer, browser and device type, and approximate country, so we know which posts are actually read. It runs under **Google Consent Mode v2**: the tag starts with `analytics_storage` and `ad_storage` set to **denied** and only measures according to the consent state the banner records. No personal account, no advertising profile, no data bought or sold — Google's own [privacy policy](https://policies.google.com/privacy) governs how it handles the measurement data.
 
+- **Google AdSense (`adsbygoogle.js`, publisher ID `ca-pub-7013982290916007`)** — the advertising library, loaded in the page head so that ads *can* be shown. It runs under the same **Google Consent Mode v2** defaults as the measurement tag: `ad_storage`, `ad_user_data` and `ad_personalization` stay **denied** until consent records otherwise. The moment ad units are placed on a page, advertising may begin — and from that moment the cookies covered by the "When ads are displayed" section below come into play, subject to your consent choices.
+
 The giscus comment widget (below) is a GitHub embed; loading it may allow GitHub to set its own cookies when you interact with it.
 
-**When ads are displayed:** the Site may run advertising, including Google AdSense. When that happens, third parties — **including Google** — may place cookies or use similar technologies (such as device identifiers) on your browser to serve and measure ads.
+**When ads are displayed:** the AdSense library is already loaded (see above); actual advertising starts when an ad unit is placed on a page, and the Site may then run advertising, including Google AdSense. When that happens, third parties — **including Google** — may place cookies or use similar technologies (such as device identifiers) on your browser to serve and measure ads.
 
 Specifically, if Google AdSense is active:
 
