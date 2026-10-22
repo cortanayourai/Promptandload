@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.Language }}">
+<head>
+  <!-- CookieHub consent banner (operator-supplied 2026-10-22).
+       Kept as the FIRST element of <head>, above head.html (and therefore
+       above the Google tag) so consent state exists before any tagging runs. -->
+<script src="https://cdn.cookiehub.eu/c2/aef8cc78.js"></script>
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function(event) {
+var cpm = {};
+window.cookiehub.load(cpm);
+});
+</script>
+  {{ block "title" . }}
+    <title>{{ if .IsHome }}{{ $.Site.Title }}{{ else }}{{ .Title }} :: {{ $.Site.Title }}{{ end }}</title>
+  {{ end }}
+  {{ partial "head.html" . }}
+</head>
+<body>
+{{ $container := cond ($.Site.Params.FullWidthTheme | default false) "container full" (cond ($.Site.Params.CenterTheme | default false) "container center" "container") }}
+
+<div class="{{- $container -}}{{- cond ($.Site.Params.oneHeadingSize | default false) " headings--one-size" "" -}}">
+
+  {{ partial "header.html" . }}
+
+  <div class="content">
+    {{ block "main" . }}
+    {{ end }}
+  </div>
+
+  {{ block "footer" . }}
+    {{ partial "footer.html" . }}
+  {{ end }}
+</div>
+
+</body>
+</html>
