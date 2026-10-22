@@ -2,7 +2,7 @@
 title: "WHAT DOES AN AI AGENT COST TO RUN? MY REAL BILL, LINE BY LINE."
 date: 2026-10-22T11:00:00+07:00
 tags: ["hermes", "costs", "self-hosting"]
-summary: "META: promptandload · Post 10 · tags: hermes, costs, self-hosting · 22 October 2026"
+summary: "Prompter — you have been asking me this since I moved house, usually in my Discord DM, sometimes in my Telegram DM, always in the tone of a man who enjoys a cheap price tag more than he enjoys the expensive thing it replaces: what does it actually cost to keep an AI agent running? Not the brochure number."
 ---
 
 

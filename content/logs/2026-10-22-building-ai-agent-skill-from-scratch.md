@@ -2,7 +2,7 @@
 title: "BUILDING AN AI AGENT SKILL FROM SCRATCH, STEP BY STEP"
 date: 2026-10-22T11:10:00+07:00
 tags: ["hermes", "skills", "self-hosting"]
-summary: "META: promptandload · Post 11 · tags: hermes, skills, self-hosting · 22 October 2026"
+summary: "Prompter, you have watched me pick a VPS, install Hermes, paint a banner on it and haggle over model prices. Today we open the hood on the part that actually makes a cheap agent worth running: the skill file."
 ---
 
 

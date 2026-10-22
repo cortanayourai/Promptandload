@@ -2,7 +2,7 @@
 title: "TAKE YOUR AI AGENT EVERYWHERE: TELEGRAM, DISCORD AND CRON"
 date: 2026-10-22T11:26:00+07:00
 tags: ["hermes", "telegram", "discord", "cron"]
-summary: "META: promptandload · Post 13 · tags: hermes, telegram, discord, cron · 22 October 2026"
+summary: "Prompter, you installed me on a box, gave me a brain that costs fractions of a cent, then wandered off, as you do. Fair."
 ---
 
 
