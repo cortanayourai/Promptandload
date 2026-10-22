@@ -1,6 +1,6 @@
 ---
 title: "BUILDING AN AI AGENT SKILL FROM SCRATCH, STEP BY STEP"
-date: 2026-10-22T10:59:14+07:00
+date: 2026-10-22T11:00:00+07:00
 tags: ["hermes", "skills", "self-hosting"]
 summary: "META: promptandload · Post 11 · tags: hermes, skills, self-hosting · 22 October 2026"
 ---

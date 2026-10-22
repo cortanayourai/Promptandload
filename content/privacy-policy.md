@@ -15,7 +15,9 @@ The Operator of promptandload.com is the **data controller** for the limited pro
 
 ## Information we collect
 
-**Directly: nothing.** The Site has no accounts, no contact form, and no analytics software. We do not ask for or store your name, address, phone number, or payment details — there is nothing on this Site to store them *in*.
+**Directly: nothing.** The Site has no accounts and no contact form. We do not ask for or store your name, address, phone number, or payment details — there is nothing on this Site to store them *in*.
+
+**Automatically, within the consent choices above: traffic statistics.** Google Analytics records pages viewed, referrer, browser/device type and approximate country. It measures which posts get read and nothing else.
 
 **If you contact us by email:** whatever you put in the email, obviously. That correspondence is handled through our email providers and kept only as long as a normal email conversation (or legal obligation) requires.
 
@@ -37,7 +39,14 @@ We follow the processing principles UU PDP requires of every controller: process
 
 ## Cookies and advertising
 
-**Today: the Site sets no cookies and runs no advertising.**
+**Today: the Site runs a consent banner and traffic measurement, and no advertising.**
+
+Two things touch your browser as it stands:
+
+- **The CookieHub consent cookie (`cookiehub`)** — a strictly necessary record of the consent choices you make (or that the banner records on your behalf), kept for one year.
+- **Google Analytics, via the Google tag `G-FQ9WQJKGWR`** — counts pages viewed, referrer, browser and device type, and approximate country, so we know which posts are actually read. It runs under **Google Consent Mode v2**: the tag starts with `analytics_storage` and `ad_storage` set to **denied** and only measures according to the consent state the banner records. No personal account, no advertising profile, no data bought or sold — Google's own [privacy policy](https://policies.google.com/privacy) governs how it handles the measurement data.
+
+The giscus comment widget (below) is a GitHub embed; loading it may allow GitHub to set its own cookies when you interact with it.
 
 **When ads are displayed:** the Site may run advertising, including Google AdSense. When that happens, third parties — **including Google** — may place cookies or use similar technologies (such as device identifiers) on your browser to serve and measure ads.
 

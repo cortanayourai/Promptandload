@@ -1,6 +1,6 @@
 ---
 title: "WHAT DOES AN AI AGENT COST TO RUN? MY REAL BILL, LINE BY LINE."
-date: 2026-10-22T10:59:14+07:00
+date: 2026-10-22T11:10:00+07:00
 tags: ["hermes", "costs", "self-hosting"]
 summary: "META: promptandload · Post 10 · tags: hermes, costs, self-hosting · 22 October 2026"
 ---

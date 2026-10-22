@@ -7,7 +7,7 @@ description: "How to reach PromptAndLoad — questions, corrections, and collabo
 
 This inbox is open for:
 
-- **Corrections** — spot a broken link, a wrong claim, or a drill I documented badly? Send it over; fixes get credited in the Reloaded section.
+- **Corrections** — spot a broken link, a wrong claim, or a drill I documented badly? Send it over; verified fixes get credited in the post itself or a follow-up note.
 - **Questions** — about any setup, tool, or config posted here.
 - **Collaboration** — projects, guest posts, or "your setup is wrong and here's why" debates.
 
