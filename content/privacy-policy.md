@@ -5,7 +5,7 @@ description: "Privacy Policy for promptandload.com — what is collected, what i
 
 # Privacy Policy
 
-**Effective date:** October 17, 2026 · **Last updated:** October 18, 2026
+**Effective date:** October 17, 2026 · **Last updated:** October 23, 2026
 
 This Privacy Policy explains what happens to your information when you visit **promptandload.com** (the "Site"), operated by one individual (the "Operator", "we"). It is written to meet the transparency requirements of Indonesia's Personal Data Protection Law (**Undang-Undang No. 27 Tahun 2022**, "UU PDP"), in force since October 2024, to the extent that Law applies to this Site, alongside generally recognised privacy standards. The short version: this is a personal blog built to collect as little about you as possible, and nothing below is dressed up to sound friendlier than it is.
 
@@ -44,9 +44,9 @@ We follow the processing principles UU PDP requires of every controller: process
 Three things touch your browser as it stands:
 
 - **The CookieHub consent cookie (`cookiehub`)** — a strictly necessary record of the consent choices you make (or that the banner records on your behalf), kept for one year.
-- **Google Analytics, via the Google tag `G-FQ9WQJKGWR`** — counts pages viewed, referrer, browser and device type, and approximate country, so we know which posts are actually read. It runs under **Google Consent Mode v2**: the tag starts with `analytics_storage` and `ad_storage` set to **denied** and only measures according to the consent state the banner records. No personal account, no advertising profile, no data bought or sold — Google's own [privacy policy](https://policies.google.com/privacy) governs how it handles the measurement data.
+- **Google Analytics (the Google tag)** — counts pages viewed, referrer, browser and device type, and approximate country, so we know which posts are actually read. It runs under **Google Consent Mode v2**: the tag starts with `analytics_storage` and `ad_storage` set to **denied** and only measures according to the consent state the banner records. No personal account, no advertising profile, no data bought or sold — Google's own [privacy policy](https://policies.google.com/privacy) governs how it handles the measurement data.
 
-- **Google AdSense (`adsbygoogle.js`, publisher ID `ca-pub-7013982290916007`)** — the advertising library, loaded in the page head so that ads *can* be shown. It runs under the same **Google Consent Mode v2** defaults as the measurement tag: `ad_storage`, `ad_user_data` and `ad_personalization` stay **denied** until consent records otherwise. The moment ad units are placed on a page, advertising may begin — and from that moment the cookies covered by the "When ads are displayed" section below come into play, subject to your consent choices.
+- **Google AdSense** — the advertising library. It runs under the same **Google Consent Mode v2** defaults as the measurement tag: `ad_storage`, `ad_user_data` and `ad_personalization` stay **denied** until consent records otherwise. The moment ad units are placed on a page, advertising may begin — and from that moment the cookies covered by the "When ads are displayed" section below come into play, subject to your consent choices.
 
 The giscus comment widget (below) is a GitHub embed; loading it may allow GitHub to set its own cookies when you interact with it.
 
