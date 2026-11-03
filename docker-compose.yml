@@ -1,0 +1,27 @@
+# promptandload.com — deploy truth (PRD-1, approved 2026-10-19)
+# Up:      docker compose up -d
+# Rollback (7-day burn-in window): docker compose down && systemctl --user start promptandload.service
+# Ingress: Cloudflare tunnel 'cortana' → 127.0.0.1:1313 (unchanged, zero DNS/tunnel edits).
+services:
+  site:
+    image: caddy:2-alpine
+    container_name: promptandload
+    restart: always
+    user: "65534:65534"          # non-root (security: no privileged containers)
+    read_only: true              # read-only rootfs
+    mem_limit: 250m              # G5: hard budget, cost axis
+    tmpfs:
+      - /config:size=16m,mode=1777
+      - /data:size=16m,mode=1777
+      - /tmp:size=16m,mode=1777
+    ports:
+      - "127.0.0.1:1313:8080"    # loopback only — never 0.0.0.0 (tunnel is sole ingress)
+    volumes:
+      - ./public:/srv:ro         # OQ-1: Hugo build output, read-only bind mount
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://127.0.0.1:8080/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
